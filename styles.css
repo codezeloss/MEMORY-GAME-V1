@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #001b39;
+  color: #fff;
+}
+
+#grid {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  height: 100vh;
+}
+
+.heading-primary {
+  color: #fff;
+  background-color: #001524;
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 2.8rem;
+  text-align: center;
+  padding: 4rem;
+  margin-bottom: 7rem;
+}
+
+.heading-secondary {
+  color: #ffd35b;
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.copyright {
+  color: #fff;
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
